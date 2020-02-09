@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "commonjs",
+        "target": "es6",
+        "lib": ["es6", "dom"],
+        "sourceMap": false,
+        "jsx": "react",
+        "allowJs": false,
+        "esModuleInterop": true,
+        "strictNullChecks": true,
+        "types": ["@types/chrome", "@types/node", "@types/firefox-webext-browser"],
+        "typeRoots": ["./node_modules/@types", "./types"],
+        "noImplicitAny": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "__tests__"]
+}
