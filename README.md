@@ -3,7 +3,6 @@
 
 ```bash
 # clone the git repo
-$ git clone https://github.com/kryptokinght/react-extension-boilerplate.git
 
 # Install dependencies
 $ npm install
